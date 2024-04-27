@@ -76,7 +76,7 @@ width: 10%;
 .body{
     display: flex;
     flex-direction: column;
-    transform: translate(22rem, 10rem);
+    transform: translate(22rem, 13rem);
 }
 
 /* Remove the transformation for smaller screens */
