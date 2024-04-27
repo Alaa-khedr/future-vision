@@ -73,6 +73,9 @@ width: 10%;
     padding: 8rem 0;
     align-items: center;
   }
+  .h1{
+    font-size: 16px;
+  }
 }
 
 .body h2 , h3, .dark-grey{
