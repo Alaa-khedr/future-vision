@@ -57,10 +57,22 @@ width: 10%;
     overflow: hidden;
 } */
 
+
+/*Modified*/
+/*_______________________________*/
 .body{
     display: flex;
     flex-direction: column;
     transform: translate(22rem, 10rem);
+}
+
+/* Remove the transformation for smaller screens */
+@media (max-width: 991px) {
+  .body {
+    transform: none;
+    padding: 8rem 0;
+    align-items: center;
+  }
 }
 
 .body h2 , h3, .dark-grey{
