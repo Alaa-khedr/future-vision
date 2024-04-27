@@ -12,7 +12,19 @@ width: 10%;
 
 /*______________________________________________________________________________*/
 /* navbar section */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Ensures the navbar stays on top of other content */
+}
+
 .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 10px;
   --bs-navbar-color: #112f49;
   --bs-navbar-hover-color: #112f49;
   --bs-nav-link-padding-x: 0;
@@ -40,6 +52,7 @@ width: 10%;
     padding-left: 10px;
   }
 }
+
 
 /*______________________________________________________________________________*/
 
