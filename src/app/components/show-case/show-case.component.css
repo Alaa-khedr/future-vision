@@ -32,12 +32,12 @@ width: 10%;
 
 @media (max-width: 768px) {
   .LogoImg {
-    width: 200px;
+    width: 230px;
   }
 
   .navbar-nav {
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: 5px;
+    padding-left: 5px;
   }
 }
 
