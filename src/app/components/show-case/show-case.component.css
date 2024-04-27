@@ -9,6 +9,8 @@
 .w-10{
 width: 10%;
 }
+
+/*______________________________________________________________________________*/
 /* navbar section */
 .navbar-nav {
   --bs-navbar-color: #112f49;
@@ -27,6 +29,19 @@ width: 10%;
 .LogoImg{
   width: 300px;
 }
+
+@media (max-width: 768px) {
+  .LogoImg {
+    width: 200px;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+/*______________________________________________________________________________*/
 
 /* hero section */
  /* @ngular-font-face-exclude*/
