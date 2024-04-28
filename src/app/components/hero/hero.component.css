@@ -74,3 +74,44 @@ opacity: 1;
     /* You can adjust this value based on your needs */
   }
 }
+
+/* Default font sizes */
+.title-text {
+  font-family: "Rubik", sans-serif;
+  /* Example default size */
+  font-size: 1.5rem;
+  /* You can adjust this value based on your design */
+}
+
+.p-text {
+  font-family: "Roboto", sans-serif;
+  /* Example default size */
+  font-size: 1rem;
+  /* You can adjust this value based on your design */
+}
+
+/* Adjust font sizes for smaller screens */
+@media (max-width: 768px) {
+  .title-text {
+    font-size: 1rem;
+    /* Decreased font size for titles on smaller screens */
+  }
+
+  .p-text {
+    font-size: 0.75rem;
+    /* Decreased font size for paragraph text on smaller screens */
+  }
+}
+
+/* Optional: even smaller devices */
+@media (max-width: 480px) {
+  .title-text {
+    font-size: 0.6rem;
+    /* Further decrease for very small screens */
+  }
+
+  .p-text {
+    font-size: 0.5rem;
+    /* Further decrease for very small screens */
+  }
+}
