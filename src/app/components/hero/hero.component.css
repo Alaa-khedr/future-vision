@@ -36,6 +36,7 @@ opacity: 1;
 .px-6{
     padding-inline: 5rem;
 }
+
 @media (max-width:716px) {
     .special-img{
         height: 200px;
@@ -50,13 +51,13 @@ opacity: 1;
 
   .title-text,
   .p-text {
-    font-size: smaller;
+    font-size: 1rem !important;
   }
 
 
- .home .text p {
-    font-size: 0.8rem;
-  }
+ /* .home .text p {
+    font-size: 1rem !important;
+  } */
 }
 
 .special-img {
@@ -70,6 +71,7 @@ opacity: 1;
   }
 }
 
+/*
 .title-text {
   font-size: 1.5rem;
 }
@@ -97,4 +99,4 @@ opacity: 1;
   .p-text {
     font-size: 0.3rem;
   }
-}
+} */
