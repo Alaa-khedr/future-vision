@@ -1,5 +1,17 @@
 
 /* contact section */
+.label{
+  font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder {
+  font-weight: bold;
+}
+
+textarea::placeholder {
+  font-weight: bold;
+}
+
 .contact-section {
     width: 85%;
     margin: 2rem auto;
