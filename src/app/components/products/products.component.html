@@ -13,7 +13,7 @@
 <!--  -->
   <div class="container w-80">
     <div class="special-heading text-center">
-      <h2 class="my-5">Our Products</h2>
+      <h2 class="my-5 fw-bold">Our Products</h2>
     </div>
 
     <!-- Category Buttons -->
@@ -37,10 +37,10 @@
       <!-- Conditional rendering based on whether filters are applied -->
       <div *ngIf="filteredProducts.length > 0; else showAll" class="row gy-4 mt-4">
         <div *ngFor="let product of filteredProducts" class="col-lg-3">
-          <div class="card "  (click)="showProductModal(product)" 
+          <div class="card "  (click)="showProductModal(product)"
           >
             <img [src]="product.imageLink" alt="{{ product.productName }}" class="card-img-top w-100 rounded-3 h-200 object-fit-cover overflow-hidden">
-    
+
           </div>
         </div>
       </div>
@@ -48,10 +48,10 @@
         <div class="row gy-4 mt-4">
 
         <div *ngFor="let product of products" class="col-lg-3">
-          <div class="card "  (click)="showProductModal(product)"  
+          <div class="card "  (click)="showProductModal(product)"
           >
             <img [src]="product.imageLink" alt="{{ product.productName }}" class="card-img-top w-100 rounded-3 h-200 object-fit-cover">
-       
+
           </div>
         </div>
 
